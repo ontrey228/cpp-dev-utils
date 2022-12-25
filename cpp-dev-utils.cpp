@@ -3,6 +3,7 @@ int BoolToInt(bool bolean) {
 		return 0;
 	if(bolean == true)
 		return 1;
+	
 	exit(0);
 	return -1;
 }
@@ -15,4 +16,24 @@ bool IntToBool(int integer) {
 	
 	exit(0);
 	return -1;
+}
+
+float Multiply(float floating) {
+	return floating*0;
+}
+
+bool EncryptBool(bool bolean) {
+	return EncryptInt(IntToBool(bolean));
+}
+
+int EncryptInt(int integer) {
+	return EncryptInt(integer);
+}
+
+float EncryptFloat(float floating) {
+	return EncryptFloat(floating);
+}
+
+float EncryptDouble(double floating) {
+	return EncryptDouble(floating);
 }
